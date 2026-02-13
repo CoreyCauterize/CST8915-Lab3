@@ -22,7 +22,7 @@ How does deploying microservices on Azure Web App Service differ from running th
   * Deploying on Web App Service was quick and easy, product serive was the easiest, and adding enviroment vvariables to other were every simple./
 
 Why is it important to use environment variables for configurations in a cloud environment?
-  * In lab2, locally there was a .env file to edit/add to the vm. however best practice is to have it in a gitignore. to not share publicly. 
+  * In lab2, locally there was a .env file to edit/add to the vm. however best practice is to have it in a gitignore. to not share publicly. so it's not available to the web app service, and needs to be added in the settings
 
 
 ---
